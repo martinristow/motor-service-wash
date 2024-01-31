@@ -1,0 +1,112 @@
+.promotion-container {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(234, 230, 230, 0.1);
+}
+
+/* Додадете го ова во style.css */
+.promotion-name a{
+text-decoration: none;
+font-size: 24px;
+font-weight: bold;
+color: #007bff;
+margin-bottom: 10px;
+cursor: pointer;
+transition: color 0.3s ease-in-out;
+ /* Го отстранува потцртканото подрачје */
+
+}
+
+.promotion-name:hover a{
+color: #ff4500; /* Боја на која ќе премине при hover */
+}
+
+
+.promotion-description {
+    margin-bottom: 10px;
+}
+
+.promotion-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007828;
+}
+
+
+
+/* Додадете го ова во вашиот CSS фајл (style.css или како што го нарековте) */
+.promocii-text {
+font-size: 32px; /* Големина на фонтот */
+font-weight: bold; /* Дебелина на фонтот */
+color: #4a5800; /* Боја на текстот */
+text-align: center; /* Центрирање на текстот */
+margin: 20px 0; /* Додадете дополнителен маргин (променете според потребите) */
+text-transform: uppercase; /* Големи букви */
+letter-spacing: 2px; /* Растојание помеѓу буквите */
+}
+.promotion-offer{
+font-size: 30px;
+    font-weight: bold;
+    color: #bd0000; 
+    text-align: center;/* Големина на фонтот */
+
+}
+.promotion-container1 {
+
+max-width: 900px;
+margin: 0 auto;
+height: 100vh;
+text-align: center;
+max-height: 100px;
+ /* Максимална висина на контейнерот */
+overflow: hidden; /* Скријте го прелишното содржина */
+transition: max-height 0.5s ease-in-out; /* Анимација на транзиција */
+}
+
+/* Овие стилови се за текстот што се појавува по клик */
+.promotion-container1.expanded {
+max-height: none; /* Откријте го содржината кога е проширен */
+}
+
+
+    .message-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .message-text {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .timestamp-text {
+        font-size: 12px;
+        color: #6c757d;
+    }
+   
+    
+    
+    /* Додајте ги другите стилови според потребите */
+    
+    
+    /* Додајте ги другите стилови според потребите */
+    .footer {
+        background-color: #72b8fd;
+        padding: 20px;
+        text-align: center;
+        color: #5c2525;
+        margin-bottom: 20px; /* Овој стил го оставаме за подобро легнање на подножјето во случај да има содржина погоре */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(234, 230, 230, 0.1);
+        margin: 0 auto; /* Останува валидно и ќе го центрира подножјето хоризонтално */
+    }
+    
+   .dropBox{
+    display:none;
+   }
